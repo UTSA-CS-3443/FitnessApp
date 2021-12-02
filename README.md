@@ -22,3 +22,10 @@ $ git clone https://github.com/UTSA-CS-3443/FitnessApp.git
 FUNCTIONALITY:
 
 FitnessApp is an application dedicated to creating and maintaining user workout profiles while providing fitness workouts and diet plans in accordance to their goals. The app stores user data in a CSV file and takes in user input such as height, weight, and current level of activity to be able to provide information such as workout plans, diet plans, and calculated BMI. The user can keep track of their current workouts and continuously update their profile to be provided with plans according to their progress.
+
+To navigate the application, users can log in or create a new user during the first view. Users may navigate to one of four views:
+
+-Profile: Users can update their profile to input new variables such as height, weight, goals, payment, name, activity level. The user may then log out or navigate back to the main view.
+-BMI Calculator: Users can insert their height and weight to calculate their current BMI. The user may then log out or navigate back to the main view.
+-Workouts: Users can select a workout intensity level and select a set of workouts they would like to accomplish. When finished with the workout, users can select that they are done and the system will keep track of how many workouts the user has finished. The user can keep working out, log out, or return back to the main view.
+-Diets: Users can input their height and weight to obtain a recommended diet plan. The user can then log out or return back to the main view.
