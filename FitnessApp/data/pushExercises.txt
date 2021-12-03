@@ -1,0 +1,13 @@
+Name,Sets,Reps,DifficultyRating
+Barbell Bench Press,3,6,3
+Incline Dumbbell Press,3,8,2
+Seated Shoulder Press,3,8,3
+Lateral Raises,3,12,4
+Skullcrushers,3,12,3
+Tricep Rope Pulldowns,3,12,2
+Push Ups,4,10,1
+Close-Grip Bench Press,3,6,4
+Military Press,3,6,4
+Dumbbell Rear Lateral Raise,3,8,2
+Dips,3,10,3
+Dumbbell flys,3,10,3

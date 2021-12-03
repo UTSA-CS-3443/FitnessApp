@@ -1,0 +1,13 @@
+Name,Sets,Reps,DifficultyRating
+Barbell Rows,3,6,3
+Pull Ups/Chin Ups,3,12,3
+Lat Pulldowns,3,10,1
+Dumbbell Hammer Curl,4,8,2
+Dumbbell Bicep Curl,4,8,2
+Single-Arm DB Row,3,8,1
+Rope Facepulls,3,10,1
+Seated Cable Row,4,8,1
+Dumbbell Shurgs,3,8,3
+Incline Dumbbell Curls,3,10,3
+Pullovers,4,8,2
+Concentration Curl,3,8,4

@@ -1,0 +1,14 @@
+Name,Sets,Reps,DifficultyRating
+Back Squats,4,8,3
+Hack Squats,4,8,4
+Hamstring Curls,3,10,2
+Calf Raises,3,10,2
+Leg Press,3,10,2
+Hanging Leg Raises,3,12,4
+Deadlifts,3,10,3
+Bulgarian Split Squat,4,8,4
+Leg Extensions,3,10,2
+Lunges,3,12,1
+Goblet Squats,3,15,1
+Hip Thrusts,4,10,2
+Dumbbell Carries,3,20,2
