@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="750.0" maxWidth="750.0" minHeight="750.0" minWidth="750.0" prefHeight="750.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.bmiController">
+   <children>
+      <ImageView fitHeight="750.0" fitWidth="1140.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/1917334.jpg" />
+         </image></ImageView>
+      <Button fx:id="calculate" layoutX="321.0" layoutY="375.0" mnemonicParsing="false" onAction="#handleBMICalc" text="Calculate">
+         <font>
+            <Font name="AdobeDevanagari-Regular" size="26.0" />
+         </font></Button>
+      <Button fx:id="back" layoutX="695.0" layoutY="36.0" mnemonicParsing="false" onAction="#backBtnClicked" text="Back" />
+      <TextField fx:id="feet" layoutX="235.0" layoutY="198.0" />
+      <TextField fx:id="pounds" layoutX="235.0" layoutY="273.0" />
+      <TextField fx:id="inches" layoutX="417.0" layoutY="198.0" />
+      <Label fx:id="calculatedBMI" alignment="CENTER" contentDisplay="CENTER" layoutX="304.0" layoutY="513.0" prefHeight="36.0" prefWidth="171.0" wrapText="true">
+         <font>
+            <Font name="AdobeDevanagari-Regular" size="30.0" />
+         </font></Label>
+      <Label layoutX="36.0" layoutY="194.0" text="Enter your height">
+         <font>
+            <Font name="AdobeDevanagari-Regular" size="26.0" />
+         </font></Label>
+      <Label layoutX="389.0" layoutY="195.0" text="Ft">
+         <font>
+            <Font name="AdobeDevanagari-Regular" size="26.0" />
+         </font></Label>
+      <Label layoutX="389.0" layoutY="270.0" text="Lbs">
+         <font>
+            <Font name="AdobeDevanagari-Regular" size="26.0" />
+         </font></Label>
+      <Label layoutX="34.0" layoutY="269.0" text="Enter your weight">
+         <font>
+            <Font name="AdobeDevanagari-Regular" size="26.0" />
+         </font></Label>
+      <Label layoutX="572.0" layoutY="195.0" text="In">
+         <font>
+            <Font name="AdobeDevanagari-Regular" size="26.0" />
+         </font></Label>
+      <Label layoutX="244.0" layoutY="36.0" text="Calculate Your BMI">
+         <font>
+            <Font name="AdobeDevanagari-Regular" size="33.0" />
+         </font>
+      </Label>
+      <Label fx:id="BMIRange" alignment="CENTER" contentDisplay="CENTER" layoutX="314.0" layoutY="600.0" prefHeight="36.0" prefWidth="171.0" wrapText="true">
+         <font>
+            <Font name="AdobeDevanagari-Regular" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

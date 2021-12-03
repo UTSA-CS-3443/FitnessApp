@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="mainPane" maxHeight="800.0" maxWidth="800.0" minHeight="700.0" minWidth="700.0" prefHeight="700.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.LoginController">
+   <children>
+      <ImageView fitHeight="542.0" fitWidth="750.0" layoutY="161.0" opacity="0.27" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../data/background.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="84.0" fitWidth="131.0" layoutX="28.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../data/fitnessapplogo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="41.0" layoutY="412.0" prefHeight="54.0" prefWidth="262.0" text="Enter your username:" textFill="#2c95b0">
+         <font>
+            <Font name="Britannic Bold" size="27.0" />
+         </font>
+      </Label>
+      <TextField fx:id="usernameInput" layoutX="318.0" layoutY="417.0" prefHeight="44.0" prefWidth="395.0" />
+      <Label layoutX="154.0" layoutY="482.0" prefHeight="54.0" prefWidth="149.0" text="Passphrase:" textFill="#2c95b0">
+         <font>
+            <Font name="Britannic Bold" size="27.0" />
+         </font>
+      </Label>
+      <Button fx:id="createUserBtn" layoutX="129.0" layoutY="592.0" mnemonicParsing="false" onAction="#createUser" prefHeight="63.0" prefWidth="177.0" style="-fx-background-color: white; -fx-border-color: black;" text="Create User" textFill="#2c95b0">
+         <font>
+            <Font name="Britannic Bold" size="24.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="passwordInput" layoutX="318.0" layoutY="487.0" prefHeight="44.0" prefWidth="395.0" />
+      <Label layoutX="161.0" layoutY="31.0" prefHeight="70.0" prefWidth="314.0" text="Fitness App" textFill="#2c95b0">
+         <font>
+            <Font name="Cambria Bold Italic" size="51.0" />
+         </font>
+      </Label>
+      <Button fx:id="logInBtn" layoutX="427.0" layoutY="592.0" mnemonicParsing="false" onAction="#logIn" prefHeight="63.0" prefWidth="177.0" style="-fx-background-color: white; -fx-border-color: black;" text="Log In" textFill="#2c95b0">
+         <font>
+            <Font name="Britannic Bold" size="24.0" />
+         </font>
+      </Button>
+      <Label fx:id="incorrectLogin" layoutX="320.0" layoutY="552.0" textFill="RED">
+         <font>
+            <Font name="Cambria Bold Italic" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,12 @@
+Name,Sets,Reps,DifficultyRating
+Barbell Bench Press,3,8,3
+Back Squats,3,8,3
+Pull Ups,3,10,4
+Hamstring Curls,3,12,2
+Standing Overhead Press,4,6,4
+Face Pulls Drag Curls,3,10,2
+Push ups,4,12,1
+Air Squats,4,15,1
+Burpees,3,10,2
+Lunges,3,10,1
+Stair Climbing,3,50,1
